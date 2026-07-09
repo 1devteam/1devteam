@@ -1,62 +1,58 @@
-# Ajenda AI
+<div align="center">
 
-**Governed multi-tenant AI execution for enterprise teams**
+# ajenda-ai
 
-I build runtime systems where tenant isolation, policy admission, queue-backed execution, and release evidence are first-class — not afterthoughts.
+### Governed AI execution for teams that need control, not chat wrappers.
 
-[![Location](https://img.shields.io/badge/location-USA-blue)](#)
-[![Focus](https://img.shields.io/badge/focus-enterprise%20AI%20runtime-111111)](#)
-[![Contact](https://img.shields.io/badge/email-inmo.ai%40outlook.com-EA4335)](mailto:inmo.ai@outlook.com)
+[![USA](https://img.shields.io/badge/location-USA-111315?style=flat-square)]()
+[![Enterprise](https://img.shields.io/badge/focus-enterprise%20runtime-B3122B?style=flat-square)]()
+[![Email](https://img.shields.io/badge/contact-inmo.ai%40outlook.com-22222C?style=flat-square)](mailto:inmo.ai@outlook.com)
+
+**Tenant isolation · Runtime authority · Evidence-based release**
+
+[Explore work](#work) · [Email me](mailto:inmo.ai@outlook.com)
+
+</div>
 
 ---
 
-## What I'm building
+## What it is
 
-**Ajenda AI** is a governed execution platform for enterprise AI workloads:
-
-- **Tenant isolation** — PostgreSQL RLS, scoped auth, cross-tenant rejection
-- **Runtime authority** — queue/lease-backed workers, bounded recovery, fail-closed admission
-- **Commercial SaaS** — self-serve onboarding, Stripe billing, plan/quota gates
-- **Plugin architecture** — standalone brain mode + optional CRM/email integrations
-- **Release confidence** — live runtime proofs, contract audits, evidence-based promotion gates
+**Ajenda AI** turns goals into governed missions — planned, queued, executed, and verified with evidence your team can trust.
 
 ```text
-Customer UI → FastAPI /v1 → PostgreSQL + Redis queue → WorkerLoop → governed side effects
+UI → FastAPI → Postgres + Redis → WorkerLoop → audited side effects
 ```
 
----
+## Why it matters
+
+| | |
+|:---:|:---|
+| **Isolate** | Multi-tenant RLS, scoped auth, fail-closed admission |
+| **Execute** | Queue/lease workers, bounded recovery, plugin runtime |
+| **Ship** | Live proofs, contract audits, staging gates before prod |
 
 ## Stack
 
-`Python` · `FastAPI` · `PostgreSQL` · `Redis` · `React` · `TypeScript` · `Docker` · `Kubernetes` · `Stripe` · `OpenTelemetry` · `Prometheus`
+`Python` `FastAPI` `PostgreSQL` `Redis` `React` `TypeScript` `Docker` `K8s` `Stripe`
 
----
+## Work
 
-## Selected work
-
-| Project | Focus |
-|---------|-------|
-| [**ajenda-ai**](https://github.com/1devteam/ajenda-ai) | Governed multi-tenant AI execution platform (private) |
-| [**onmiapath_v2**](https://github.com/1devteam/onmiapath_v2) | Agent system core, governance layer, E2E API flow |
+| | |
+|---|---|
+| [**onmiapath_v2**](https://github.com/1devteam/onmiapath_v2) | Agent core + governance + E2E API |
 | [**syntara-clean**](https://github.com/1devteam/syntara-clean) | Compliance engine |
-| [**gemini-cli**](https://github.com/1devteam/gemini-cli) | Custom Gemini CLI with plugins & prompt tooling |
-| [**video_ml**](https://github.com/1devteam/video_ml) | AI studio / video ML experiments |
+| [**gemini-cli**](https://github.com/1devteam/gemini-cli) | Gemini CLI, plugins, prompt tooling |
+| [**video_ml**](https://github.com/1devteam/video_ml) | AI studio / video ML |
+
+> **ajenda-ai** (private) — full SaaS platform: onboarding, billing, command center UI, runtime proofs.
 
 ---
 
-## Enterprise principles
+<div align="center">
 
-- **Governance participates in runtime authority** — not a detached policy layer
-- **Validation is proof** — tests, live runtime matrix, staging proofs before promotion
-- **Fail closed by default** — missing tenant context, bad credentials, or unhealthy deps block execution
-- **Operational credibility** — readiness probes, observability, recovery hardening
+**inmoa** · building Ajenda AI
 
----
+[GitHub](https://github.com/1devteam) · [Email](mailto:inmo.ai@outlook.com)
 
-## Connect
-
-- **Email:** [inmo.ai@outlook.com](mailto:inmo.ai@outlook.com)
-- **Company:** inmoa
-- **GitHub:** [@1devteam](https://github.com/1devteam)
-
-> Building Ajenda AI for teams that need AI execution with enterprise-grade control, not just chat wrappers.
+</div>
