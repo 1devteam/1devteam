@@ -1,0 +1,10 @@
+{
+  "name": "1devteam",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy --assets=./dist"
+  },
+  "devDependencies": {
+    "wrangler": "^4.110.0"
+  }
+}
